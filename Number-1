@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="">
+	<title>Projetct 1</title>
+	<link rel="icon" type="images/x-icon" href="E:\Belajar-html\Ega.ico">
+
+<style type="text/css">
+	* {
+  box-sizing: border-box;
+}
+h1 {
+	color: black;
+	font-family: serif;
+	text-align: center;
+}
+
+#judul {
+	text-align: right;
+	color: wheat;
+}
+
+body {
+	background-image:url('E:/Belajar-html/Magic Aura.jpg') ;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+table, th ,td {
+	border: 3px solid blue;
+	color: white;
+} 
+
+header {
+	font-size: 60px;
+	text-align: center;
+	background-color: gray;
+	color: white;
+	padding: 50px;
+}
+nav ul {
+	font-size: 35px;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav {
+	background-color: silver;
+	float: left;
+	padding: 30px;
+	width: 30%;
+	height: 300px;
+	text-align: ;
+}
+article {
+	  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+	font-size: 25px;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: gray;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: purple;
+}
+
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+
+
+<body >
+
+
+
+<h2 id="judul">Harry Potter Fans Login :</h2>
+<p style="text-align:right; color: whitesmoke;">
+
+Username :<input type="text" name="" style="width:200px" ><br>
+Password :<input type="password" name="" style="width:200px;" ><br>
+<button> <a href="https://www.wizardingworld.com/discover/books" target="_blank" style="text-decoration:none;">Masuk</a></button> 
+<button><a href="https://my.wizardingworld.com/register/age-gate/" target="_blank" style="text-decoration:none;">Daftar</a></button>
+</p>
+
+
+<header>
+<img src="E:\Belajar-html\Harry_Potter_wordmark.png" width="300px" height="100px">
+</header>
+
+<section>
+	<nav>
+		<ul>
+			<li><a href="https://id.wikipedia.org/wiki/Daniel_Radcliffe" target="iframe" style="text-decoration:none;">Harry Potter</a></li>
+			<li><a href="https://id.wikipedia.org/wiki/Rupert_Grint" target="iframe" style="text-decoration: none;">Ron Weasley</a></li>
+			<li><a href="https://id.wikipedia.org/wiki/Emma_Watson" target="iframe" style="text-decoration: none;">Hermione Granger</a></li>
+		</ul>
+	</nav>
+<article>
+<h2> <a href="https://id.wikipedia.org/wiki/Harry_Potter" target="_blank">Harry Potter</a></h2>
+<p>Harry Potter adalah seria film Inggris Amerika berdasarkan novel-novel Hary Potter karya penulis J.K Rowling. Seri ini didistribusikan oleh Warner Bros dan terdiri dari delapan film fantasi, dimulai dengan Harry Potter And Philosopher Stone(2001) dan diakhiri dengan Harry Potter And The Deadthly Hallows 2.</p>
+</article>
+</section>
+	
+
+<footer>
+	Artikel by : Ega Aulia Haryansyah
+</footer>
+
+
+
+<br>
+<p style="text-align: center;">
+<iframe src="" height="250px" width="1300px" name="iframe" style="border: 2px solid gray;" ></iframe>
+</p>
+
+
+
+
+</body>
+</html>
